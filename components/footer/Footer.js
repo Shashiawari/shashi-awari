@@ -34,13 +34,13 @@ const Footer = () => {
               <Link href={"/"}>Home</Link>
             </p>
             <p>
-              <Link href={"/services"}>services</Link>
+              <Link href={"/about"}>About</Link>
             </p>
             <p>
-              <Link href={"/projects"}>projects</Link>
+              <Link href={"/projects"}>Projects</Link>
             </p>
             <p>
-              <Link href={"/pricing"}>pricing</Link>
+              <Link href={"/contact"}>Contact Me</Link>
             </p>
           </div>
 
