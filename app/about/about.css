@@ -1,0 +1,116 @@
+.center_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  }
+  
+  .wave {
+    width: 16.8rem;
+    height: 550px;
+    background-color: #ff6b6b;
+    margin: 0 4px;
+    border-radius: 0.4rem;
+    animation: wave 3s linear infinite;
+    transform-origin: center;
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: scale(0);
+      filter: hue-rotate(90deg) blur(100px);
+    }
+    25% {
+      transform: scale(0);
+      filter: hue-rotate(120deg) blur(50px);
+    }
+    50% {
+      transform: scale(1);
+      filter: hue-rotate(180deg) blur(25px);
+    }
+    25% {
+      transform: scale(0);
+      filter: hue-rotate(360deg) blur(2px);
+    }
+    100% {
+      transform: scale(0);
+      filter: hue-rotate(0deg) blur(0);
+    }
+  }
+  
+  .wave:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+  
+  .wave:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+  
+  .wave:nth-child(4) {
+    animation-delay: 0.3s;
+  }
+  
+  .wave:nth-child(5) {
+    animation-delay: 0.4s;
+  }
+  
+  .wave:nth-child(6) {
+    animation-delay: 0.5s;
+  }
+  
+  .wave:nth-child(7) {
+    animation-delay: 0.6s;
+  }
+  
+  .wave:nth-child(8) {
+    animation-delay: 0.7s;
+  }
+  
+  .wave:nth-child(9) {
+    animation-delay: 0.8s;
+  }
+  
+  .wave:nth-child(10) {
+    animation-delay: 0.9s;
+  }
+  
+  .pg{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #0e0d0d5e;
+    backdrop-filter: blur(15px);
+    height: 70vh;
+    border-radius: 30px;
+    margin-top: 60px;
+    padding: 30px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    
+  }
+
+  .pg h1{
+        font-family: cubic;
+        color: white;
+        text-align: center;
+  }
+
+  .pg h3{
+    color: rgb(225, 225, 225);
+    font-family: modernsans;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    margin-top: 50px;
+  }
+
+
+  .pg p{
+    color: white;
+    font-family: modernsans;
+  }
+
+  .ser{
+    background-color: #ff6b6b60;
+    margin: 1px;
+  }

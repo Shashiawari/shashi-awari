@@ -1,0 +1,52 @@
+@font-face {
+    font-family: godshine;
+    src: url(./fonts/GodshineSans.ttf);
+}
+
+@font-face {
+    font-family: kiona;
+    src: url(./fonts/Kiona-Regular.ttf);
+}
+
+@font-face {
+    font-family: modernsans;
+    src: url(./fonts/ModernSans-Light.otf);
+}
+@font-face {
+    font-family: cubic;
+    src: url(./fonts/cubic.ttf);
+}
+
+@font-face {
+    font-family: lemonl;
+    src: url(./fonts/LEMONMILK-Light.otf);
+}
+@font-face {
+    font-family: lemonr;
+    src: url(./fonts/LEMONMILK-Regular.otf);
+}
+
+@font-face {
+    font-family: mai;
+    src: url(./fonts/maiden.ttf);
+}
+
+@font-face {
+    font-family: alumi;
+    src: url(./fonts/AlumniSansCollegiateOne-Regular.ttf);
+}
+h1{
+    font-size: 84px ;
+}
+
+h2{
+    font-size: 48px;
+}
+
+p{
+    font-size:16px;
+}
+
+*{
+    cursor: none;
+}
