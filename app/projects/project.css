@@ -9,6 +9,7 @@
 @media (max-width: 1000px) {
   .h11 {
     font-size: 400px;
+    line-height:200px;
   }
 
   .proj {
