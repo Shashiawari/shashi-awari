@@ -2,6 +2,8 @@
   font-family: alumi;
   font-size: 700px;
   color: rgb(255, 255, 255);
+    line-height: 10px;
+
 }
 
 @media (max-width: 1000px) {
