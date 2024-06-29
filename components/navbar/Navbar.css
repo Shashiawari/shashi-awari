@@ -2,24 +2,7 @@
   padding: 50px;
   transition: 0.1s;
   z-index: 999;
-}
-
-@media (max-width: 1000px) {
-  .navbar {
-    padding: 30px !important;
-    margin-top: 30px;
-    text-align: center;
-  }
-  .navbar-nav {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    border: 2px solid;
-  }
-  .nav-item {
-    width: 100%;
-    margin-left: 80px;
-  }
+  overflow: hidden;
 }
 
 #checkbox {
@@ -96,13 +79,24 @@ nav .nav-link {
 }
 .navbar-nav {
   display: flex;
-  background-color: #1f1e1e;
+  gap: 60px;
   padding-left: 20px;
   padding-right: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 30px;
 }
+@media (max-width: 990px) {
+  .navbar-nav{
+    display: flex;
+    gap: 0px !important;
+  }
+  .navbar{
+   padding: 30px;
+   margin-top: 30px;
+  }
+}
+
 .navbar-brand {
   font-family: mai;
   color: white;
@@ -140,3 +134,5 @@ nav .nav-link {
     height: 30px;
   }
 }
+
+

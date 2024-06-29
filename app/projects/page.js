@@ -8,9 +8,9 @@ const page = () => {
     <div className="proj">
       <Navbar />
       <div className="container">
-        <div className="row d-flex- justify-content-center align-items-center">
-          <div className="col-12 col-lg-6">
-            <h1 className="h11 text-center">01</h1>
+        <div className="row  d-flex- justify-content-center align-items-center">
+          <div  className="col-12  col-lg-6">
+            <h1 style={{marginBottom:"0px",padding:"0px"}} className="h11 text-center">01</h1>
           </div>
           <div className="col-12 col-lg-6" style={{}}>
             <h3 className="mx-3 ">NexGen</h3>

@@ -35,6 +35,11 @@
     font-family: alumi;
     src: url(./fonts/AlumniSansCollegiateOne-Regular.ttf);
 }
+
+@font-face {
+    font-family: gaurd;
+    src: url(./fonts/Guardians.ttf);
+}
 h1{
     font-size: 84px ;
 }
@@ -50,3 +55,8 @@ p{
 *{
     cursor: none;
 }
+
+::selection {
+    color: red;
+    background: yellow;
+  }

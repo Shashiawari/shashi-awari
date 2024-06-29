@@ -1,15 +1,15 @@
 .h11 {
   font-family: alumi;
   font-size: 700px;
+  line-height: 10px;
   color: rgb(255, 255, 255);
-    line-height: 10px;
-
 }
 
+.container{}
 @media (max-width: 1000px) {
   .h11 {
+    line-height: 400px;
     font-size: 400px;
-    line-height:400px;
   }
 
   .proj {

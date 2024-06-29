@@ -33,9 +33,10 @@
 }
 
 .log h1 {
-  font-family: cubic;
+  font-family: gaurd;
   color: white;
-  font-size: 128px;
+  font-size: 88px;
+  word-spacing: -60px;
 }
 
 .log p {
@@ -113,7 +114,8 @@
 
 @media (max-width: 1000px) {
   .log h1 {
-    font-size: 40px;
+    font-size: 20px;
+    word-spacing: 0;
   }
   .log p{
     font-size: 15px;
